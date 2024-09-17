@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. 有效的括号", "20. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35. 搜索插入位置", "35. 搜索插入位置\35. 搜索插入位置.csproj", "{05B24B4B-CA73-4787-AC31-5B8CC70A9E9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34. 在排序数组中查找元素的第一个和最后一个位置", "34. 在排序数组中查找元素的第一个和最后一个位置\34. 在排序数组中查找元素的第一个和最后一个位置.csproj", "{9DEB26B1-563E-4C75-BD15-01020766DD57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "704. 二分查找", "704. 二分查找\704. 二分查找.csproj", "{3413B203-840F-49F9-904C-DADE6612D2BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{05B24B4B-CA73-4787-AC31-5B8CC70A9E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05B24B4B-CA73-4787-AC31-5B8CC70A9E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05B24B4B-CA73-4787-AC31-5B8CC70A9E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DEB26B1-563E-4C75-BD15-01020766DD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEB26B1-563E-4C75-BD15-01020766DD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEB26B1-563E-4C75-BD15-01020766DD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DEB26B1-563E-4C75-BD15-01020766DD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3413B203-840F-49F9-904C-DADE6612D2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3413B203-840F-49F9-904C-DADE6612D2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3413B203-840F-49F9-904C-DADE6612D2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3413B203-840F-49F9-904C-DADE6612D2BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

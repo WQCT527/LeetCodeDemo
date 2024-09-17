@@ -28,7 +28,7 @@ namespace _35.搜索插入位置
 
         {
 
-            int[] nums = new int[] { 1, 3 };
+            int[] nums = new int[] { 1, 3, 5, 6 };
 
             Solution solution = new Solution();
             var i = solution.SearchInsert(nums, 2);
@@ -41,69 +41,30 @@ namespace _35.搜索插入位置
     {
         public int SearchInsert(int[] nums, int target)
         {
-            int head = 0;
-            int tail = nums.Length - 1;
 
-            while (head <= nums.Length / 2)
+            int left = 0;
+            int right = nums.Length - 1;
+            int mid = -1;
+            while (left <= right)
             {
-                if (nums[head] == target)
+                mid = (left + right) / 2;
+                if (nums[mid] == target)
                 {
-                    return head;
+                    return mid;
                 }
-                else if (nums[tail] == target)
+                else if (target < nums[mid])
                 {
-                    return tail;
-                }
-                else if (nums[head] > target)
-                {
-                    return head;
-                }
-                else if (head < nums.Length - 1 && nums[head] < target && nums[head + 1] > target)
-                {
-                    return head + 1;
+                    right = mid - 1;
                 }
                 else
-                if (tail > 0 && nums[tail - 1] < target && nums[tail] > target)
                 {
-                    return tail;
+                    left = mid + 1;
                 }
-                tail--;
-                head++;
             }
-            return nums.Length;
+
+
+            return left;
         }
     }
 
-    //public class Solution
-    //{
-    //    public int SearchInsert(int[] nums, int target)
-    //    {
-    //        //for (int i = 0; i < nums.Length; i++)
-    //        //{
-    //        //    if (nums[i] == target)
-    //        //    {
-    //        //        return i;
-    //        //    }
-    //        //    else if (i == 0 && nums[i] > target)
-    //        //    {
-    //        //        return 0;
-    //        //    }
-    //        //    else if ((i == nums.Length - 1 && nums[i] < target) || (nums[i] < target && nums[i + 1] > target))
-    //        //    {
-    //        //        return i + 1;
-    //        //    }
-    //        //}
-    //        //return 0;
-
-
-    //        for (int i = 0; i < nums.Length; i++)
-    //        {
-    //            if (nums[i] == target || nums[i] > target)
-    //            {
-    //                return i;
-    //            }
-    //        }
-    //        return nums.Length;
-    //    }
-    //}
 }
