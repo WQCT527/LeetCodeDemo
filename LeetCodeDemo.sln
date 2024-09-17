@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. 两数相加", "2. 两�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. 有效的括号", "20. 有效的括号\20. 有效的括号.csproj", "{46BD8666-CD00-428E-818C-E3BD5F6E3DDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35. 搜索插入位置", "35. 搜索插入位置\35. 搜索插入位置.csproj", "{05B24B4B-CA73-4787-AC31-5B8CC70A9E9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{46BD8666-CD00-428E-818C-E3BD5F6E3DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46BD8666-CD00-428E-818C-E3BD5F6E3DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46BD8666-CD00-428E-818C-E3BD5F6E3DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B24B4B-CA73-4787-AC31-5B8CC70A9E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B24B4B-CA73-4787-AC31-5B8CC70A9E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B24B4B-CA73-4787-AC31-5B8CC70A9E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B24B4B-CA73-4787-AC31-5B8CC70A9E9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
