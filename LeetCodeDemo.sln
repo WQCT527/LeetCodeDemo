@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34. 在排序数组中查�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "704. 二分查找", "704. 二分查找\704. 二分查找.csproj", "{3413B203-840F-49F9-904C-DADE6612D2BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "69. x 的平方根", "69. x 的平方根\69. x 的平方根.csproj", "{81B592BB-778D-4063-AFBF-4AE50DEA08D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{3413B203-840F-49F9-904C-DADE6612D2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3413B203-840F-49F9-904C-DADE6612D2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3413B203-840F-49F9-904C-DADE6612D2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B592BB-778D-4063-AFBF-4AE50DEA08D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B592BB-778D-4063-AFBF-4AE50DEA08D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B592BB-778D-4063-AFBF-4AE50DEA08D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B592BB-778D-4063-AFBF-4AE50DEA08D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

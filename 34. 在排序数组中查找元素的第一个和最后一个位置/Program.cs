@@ -34,7 +34,10 @@ namespace _34.在排序数组中查找元素的第一个和最后一个位置
          */
         static void Main(string[] args)
         {
-
+            Solution solution = new Solution();
+            var arr = solution.SearchRange(new int[] { 2, 2 }, 0);
+            Console.WriteLine($"[{arr[0]},{arr[1]}]");
+            Console.ReadLine();
         }
     }
 
@@ -42,7 +45,69 @@ namespace _34.在排序数组中查找元素的第一个和最后一个位置
     {
         public int[] SearchRange(int[] nums, int target)
         {
-            throw new NotImplementedException();
+            if (nums.Length <= 0)
+            {
+                return new int[] { -1, -1 };
+            }
+            //if (nums.Length == 1 && nums[0] != target)
+            //{
+            //    return new int[] { -1, -1 };
+            //}
+
+
+            int r = SearchRight(nums, target);
+            int l = SearchLeft(nums, target);
+
+
+            if (r == -1 || l == -1 || nums[r] != target || nums[l] != target)
+            {
+                return new int[] { -1, -1 };
+            }
+
+            return new int[] { l, r };
+        }
+        public int SearchRight(int[] nums, int target)
+        {
+            int left = -1;
+            int right = nums.Length;
+            int mid = 0;
+            while (left + 1 != right)
+            {
+                mid = (left + right) / 2;
+                if (nums[mid] <= target)
+                {
+                    left = mid;
+                }
+                else
+                {
+                    right = mid;
+                }
+
+            }
+
+            return left;
+        }
+
+        public int SearchLeft(int[] nums, int target)
+        {
+            int left = -1;
+            int right = nums.Length;
+            int mid = 0;
+            while (left + 1 != right)
+            {
+                mid = (left + right) / 2;
+                if (nums[mid] < target)
+                {
+                    left = mid;
+                }
+                else
+                {
+                    right = mid;
+                }
+
+            }
+
+            return right;
         }
     }
 }
