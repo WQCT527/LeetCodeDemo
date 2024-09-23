@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "367. 有效的完全平方�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27. 移除元素", "27. 移除元素\27. 移除元素.csproj", "{D454C8D8-EC1B-4F27-9FBB-5D45E4FC3C64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. 删除有序数组中的重复项", "26. 删除有序数组中的重复项\26. 删除有序数组中的重复项.csproj", "{191E121D-4878-4428-80CE-819CAAD61918}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D454C8D8-EC1B-4F27-9FBB-5D45E4FC3C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D454C8D8-EC1B-4F27-9FBB-5D45E4FC3C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D454C8D8-EC1B-4F27-9FBB-5D45E4FC3C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191E121D-4878-4428-80CE-819CAAD61918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191E121D-4878-4428-80CE-819CAAD61918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191E121D-4878-4428-80CE-819CAAD61918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191E121D-4878-4428-80CE-819CAAD61918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
