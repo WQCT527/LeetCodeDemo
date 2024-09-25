@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. 删除有序数组中�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "283. 移动零", "283. 移动零\283. 移动零.csproj", "{4A16E005-0038-45DF-81B0-668D61649EEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "844. 比较含退格的字符串", "844. 比较含退格的字符串\844. 比较含退格的字符串.csproj", "{F2BBC335-34B4-4E90-9844-CF55846CDE36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{4A16E005-0038-45DF-81B0-668D61649EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A16E005-0038-45DF-81B0-668D61649EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A16E005-0038-45DF-81B0-668D61649EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BBC335-34B4-4E90-9844-CF55846CDE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BBC335-34B4-4E90-9844-CF55846CDE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BBC335-34B4-4E90-9844-CF55846CDE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BBC335-34B4-4E90-9844-CF55846CDE36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
