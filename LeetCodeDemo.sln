@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "283. 移动零", "283. 移�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "844. 比较含退格的字符串", "844. 比较含退格的字符串\844. 比较含退格的字符串.csproj", "{F2BBC335-34B4-4E90-9844-CF55846CDE36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977. 有序数组的平方", "977. 有序数组的平方\977. 有序数组的平方.csproj", "{26DA0E66-A713-4A61-B9A9-9341A11CD219}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{F2BBC335-34B4-4E90-9844-CF55846CDE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2BBC335-34B4-4E90-9844-CF55846CDE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2BBC335-34B4-4E90-9844-CF55846CDE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DA0E66-A713-4A61-B9A9-9341A11CD219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DA0E66-A713-4A61-B9A9-9341A11CD219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DA0E66-A713-4A61-B9A9-9341A11CD219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DA0E66-A713-4A61-B9A9-9341A11CD219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
