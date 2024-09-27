@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "844. 比较含退格的字�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977. 有序数组的平方", "977. 有序数组的平方\977. 有序数组的平方.csproj", "{26DA0E66-A713-4A61-B9A9-9341A11CD219}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "209. 长度最小的子数组", "209. 长度最小的子数组\209. 长度最小的子数组.csproj", "{654C40D8-4553-488F-B6F8-B29064AB049E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{26DA0E66-A713-4A61-B9A9-9341A11CD219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26DA0E66-A713-4A61-B9A9-9341A11CD219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26DA0E66-A713-4A61-B9A9-9341A11CD219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654C40D8-4553-488F-B6F8-B29064AB049E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654C40D8-4553-488F-B6F8-B29064AB049E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654C40D8-4553-488F-B6F8-B29064AB049E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654C40D8-4553-488F-B6F8-B29064AB049E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
