@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977. 有序数组的平方"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "209. 长度最小的子数组", "209. 长度最小的子数组\209. 长度最小的子数组.csproj", "{654C40D8-4553-488F-B6F8-B29064AB049E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59. 螺旋矩阵 II", "59. 螺旋矩阵 II\59. 螺旋矩阵 II.csproj", "{3D9B3BB2-7904-4A07-A8A4-FC14DB1BE615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{654C40D8-4553-488F-B6F8-B29064AB049E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{654C40D8-4553-488F-B6F8-B29064AB049E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{654C40D8-4553-488F-B6F8-B29064AB049E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9B3BB2-7904-4A07-A8A4-FC14DB1BE615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9B3BB2-7904-4A07-A8A4-FC14DB1BE615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9B3BB2-7904-4A07-A8A4-FC14DB1BE615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9B3BB2-7904-4A07-A8A4-FC14DB1BE615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
