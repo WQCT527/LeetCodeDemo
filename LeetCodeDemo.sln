@@ -35,6 +35,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59. 螺旋矩阵 II", "59. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "203. 移除链表元素", "203. 移除链表元素\203. 移除链表元素.csproj", "{0CF12CD2-07CE-4EEA-9F86-87A447FA1F20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "707. 设计链表", "707. 设计链表\707. 设计链表.csproj", "{CE7CED95-BE01-4DB9-A55A-43319D0EA2F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "206. 反转链表", "206. 反转链表\206. 反转链表.csproj", "{9C8C2F86-BD7B-4D51-B192-7A981250455E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24. 两两交换链表中的节点", "24. 两两交换链表中的节点\24. 两两交换链表中的节点.csproj", "{FE71E651-0573-470C-BBB3-71D84721AABB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +111,18 @@ Global
 		{0CF12CD2-07CE-4EEA-9F86-87A447FA1F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CF12CD2-07CE-4EEA-9F86-87A447FA1F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CF12CD2-07CE-4EEA-9F86-87A447FA1F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7CED95-BE01-4DB9-A55A-43319D0EA2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7CED95-BE01-4DB9-A55A-43319D0EA2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7CED95-BE01-4DB9-A55A-43319D0EA2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7CED95-BE01-4DB9-A55A-43319D0EA2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8C2F86-BD7B-4D51-B192-7A981250455E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8C2F86-BD7B-4D51-B192-7A981250455E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8C2F86-BD7B-4D51-B192-7A981250455E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8C2F86-BD7B-4D51-B192-7A981250455E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE71E651-0573-470C-BBB3-71D84721AABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE71E651-0573-470C-BBB3-71D84721AABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE71E651-0573-470C-BBB3-71D84721AABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE71E651-0573-470C-BBB3-71D84721AABB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
