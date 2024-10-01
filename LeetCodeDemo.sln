@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "206. 反转链表", "206. �
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24. 两两交换链表中的节点", "24. 两两交换链表中的节点\24. 两两交换链表中的节点.csproj", "{FE71E651-0573-470C-BBB3-71D84721AABB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. 删除链表的倒数第 N 个结点", "19. 删除链表的倒数第 N 个结点\19. 删除链表的倒数第 N 个结点.csproj", "{4A1E6484-444B-4DD0-98F0-5694E9243D90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{FE71E651-0573-470C-BBB3-71D84721AABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE71E651-0573-470C-BBB3-71D84721AABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE71E651-0573-470C-BBB3-71D84721AABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1E6484-444B-4DD0-98F0-5694E9243D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1E6484-444B-4DD0-98F0-5694E9243D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1E6484-444B-4DD0-98F0-5694E9243D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1E6484-444B-4DD0-98F0-5694E9243D90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
