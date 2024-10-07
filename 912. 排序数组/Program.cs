@@ -19,19 +19,16 @@ namespace _912.排序数组
          */
         static void Main(string[] args)
         {
-            int[] ints = { 5, 2, 3, 7, 8, 4, 1, 6 };
+            int[] array = { 19, 20, 22, 32, 34, 50, 99, 49, 1, 11, 11, 55, 35, 93, 96, 71, 70, 38, 78, 48 };
             Solution s = new Solution();
-            int[] arr = s.SortArray(ints);
+            int[] arr = s.XiEr(array);
             foreach (int i in arr)
             {
-                Console.Write(i + "\t");
+                Console.Write(i + " ");
             }
 
-            Console.WriteLine("=====================");
+            
             Console.ReadLine();
-
-
-
         }
     }
 
@@ -60,20 +57,14 @@ namespace _912.排序数组
 
         private int Partition(int[] nums, int low, int high)
         {
-
             int pivot = nums[low];
-
             while (low < high)
             {
                 while (low < high && nums[high] >= pivot)
-                {
                     high--;
-                }
                 nums[low] = nums[high];
                 while (low < high && nums[low] <= pivot)
-                {
                     low++;
-                }
                 nums[high] = nums[low];
             }
             nums[low] = pivot;
@@ -82,56 +73,33 @@ namespace _912.排序数组
         }
         public int[] XuanZe(int[] nums)
         {
-            //选择排序 
             for (int i = 0; i < nums.Length - 1; i++)
-            {
                 for (int j = i; j < nums.Length; j++)
-                {
                     if (nums[i] > nums[j])
-                    {
                         (nums[i], nums[j]) = (nums[j], nums[i]);
-                    }
-                }
-            }
             return nums;
-
         }
 
         public int[] MaoPao(int[] nums)
         {
-            //冒泡
             for (int i = 0; i < nums.Length; i++)
-            {
-                for (int j = 0; j < nums.Length - i - 1; j++)
-                {
+                for (int j = 0; j < nums.Length - 1 - i; j++)
                     if (nums[j] > nums[j + 1])
-                    {
                         (nums[j], nums[j + 1]) = (nums[j + 1], nums[j]);
-                    }
-                }
-            }
             return nums;
         }
 
         public int[] ChaRu(int[] nums)
         {
-            //插入{ 5, 2, 3, 1 }
             for (int i = 1; i < nums.Length; i++)
             {
                 int temp = nums[i], j;
-                for (j = i - 1; j >= 0; j--)
-                {
+                for (j = i - 1; j > 0; j--)
                     if (nums[j] > temp)
-                    {
                         nums[j + 1] = nums[j];
-                    }
                     else
-                    {
                         break;
-                    }
-
-                }
-                nums[j + 1] = temp;
+                nums[j] = temp;
             }
             return nums;
         }
@@ -139,8 +107,20 @@ namespace _912.排序数组
 
 
 
-
+        public int[] XiEr(int[] arr)
+        {
+            int j, temp;
+            for (int gap = arr.Length / 2; gap > 0; gap /= 2)
+            {
+                for (int i = gap; i < arr.Length; i++)
+                {
+                    temp = arr[i];
+                    for (j = i; j >= gap && temp < arr[j - gap]; j -= gap)
+                        arr[j] = arr[j - gap];
+                    arr[j] = temp;
+                }
+            }
+            return arr;
+        }
     }
-
-
 }
