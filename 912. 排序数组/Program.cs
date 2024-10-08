@@ -27,7 +27,6 @@ namespace _912.排序数组
                 Console.Write(i + " ");
             }
 
-            
             Console.ReadLine();
         }
     }
