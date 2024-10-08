@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. 无重复字符的最长
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "128. 最长连续序列", "128. 最长连续序列\128. 最长连续序列.csproj", "{F96784FA-F558-49C4-901C-56A44F45F2A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. 两数之和", "1. 两数之和\1. 两数之和.csproj", "{6655D272-4F20-4927-B077-3BE9752558AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{F96784FA-F558-49C4-901C-56A44F45F2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F96784FA-F558-49C4-901C-56A44F45F2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F96784FA-F558-49C4-901C-56A44F45F2A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6655D272-4F20-4927-B077-3BE9752558AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6655D272-4F20-4927-B077-3BE9752558AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6655D272-4F20-4927-B077-3BE9752558AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6655D272-4F20-4927-B077-3BE9752558AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

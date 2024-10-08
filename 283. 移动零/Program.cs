@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -31,7 +32,7 @@ namespace _283.移动零
             solution.MoveZeroes(nums);
             foreach (int i in nums)
             {
-                Console.WriteLine(i);
+                Console.Write(i + " ");
             }
             Console.ReadLine();
         }
@@ -41,19 +42,14 @@ namespace _283.移动零
     {
         public void MoveZeroes(int[] nums)
         {
-
             int slow = 0;
             for (int fast = 0; fast < nums.Length; fast++)
             {
-
                 if (nums[fast] != 0)
                 {
-                    int temp = nums[fast];
-                    nums[fast] = 0;
-                    nums[slow] = temp;
+                    (nums[fast], nums[slow]) = (nums[slow], nums[fast]);
                     slow++;
                 }
-
             }
         }
     }
