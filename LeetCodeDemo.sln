@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. 两数之和", "1. 两�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. 盛最多水的容器", "11. 盛最多水的容器\11. 盛最多水的容器.csproj", "{1A44C53C-6E3F-423F-975A-CA72488D046F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "141. 环形链表", "141. 环形链表\141. 环形链表.csproj", "{4E3F6047-DBB0-4050-94D7-191A94837496}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{1A44C53C-6E3F-423F-975A-CA72488D046F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A44C53C-6E3F-423F-975A-CA72488D046F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A44C53C-6E3F-423F-975A-CA72488D046F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3F6047-DBB0-4050-94D7-191A94837496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3F6047-DBB0-4050-94D7-191A94837496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3F6047-DBB0-4050-94D7-191A94837496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3F6047-DBB0-4050-94D7-191A94837496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
